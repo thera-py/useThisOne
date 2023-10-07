@@ -1,0 +1,42 @@
+.navigate{
+    color: black;
+    font-weight: bold;
+}
+.navi{
+    margin: auto;
+}
+.logo{
+    margin-left: 30px;
+    font-size: 25px !important;
+}
+.logo::after{
+    content: '';
+    width: 0%;
+    height: 5px;
+    background: #AE87FD;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.logo:hover::after{
+    border: 1px solid #AE87FD;
+    width: 100%;
+}
+.logo:hover{
+    color: darkgrey;
+}
+.navi::after{
+    content: '';
+    width: 0%;
+    height: 5px;
+    background: #A3C0FF;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.navi:hover::after{
+    width: 100%;
+}
+.navi:hover{
+    color: darkgrey;
+}

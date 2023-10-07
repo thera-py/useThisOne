@@ -1,0 +1,20 @@
+.memberCard{
+    max-height: auto;
+    max-width: 50%;
+    box-shadow: 0px 1px 7px grey;
+    padding: 10px;
+    border-radius: 15px;
+}
+.memberImage{
+    display: block;
+    height: auto;
+    max-width: 500px;
+    margin: auto;
+}
+.memberName{
+    font-size: 14px;
+}
+.posName{
+    color: grey;
+    font-size: 12px;
+}

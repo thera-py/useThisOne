@@ -1,0 +1,95 @@
+p{
+    margin: 0;
+}
+.header{
+    box-shadow: 0px 0.1px 3px grey;
+    padding-bottom: 15px;
+    width: 100%;
+}
+.headerContainer{
+    width: 100%;
+}
+.headerText > p{
+    font-size: 25px;
+    margin: -5px;
+}
+.title{
+    font-size: 60px;
+}
+.clipImg{
+    display: block;
+    height: fit-content;
+    width: 70px;
+    margin-top: 10px;
+}
+.mainImg{
+    padding-top: 10px;
+    display: block;
+    height: auto;
+    max-width: 70%;
+}
+.separator{
+    color: #A3C0FF;
+    padding-right: 10px;
+    font-size: 60px;
+}
+.descriptions{
+    padding-top: 10px;
+    box-shadow: 0px 1px 3px grey;
+}
+.aiDesc > p{
+    font-size: 20px;
+}
+.dataDesc > p{
+    font-size: 27px;
+}
+.descOne{
+    margin-top: 15px;
+}
+.title{
+    padding-top: 5px;
+}
+.vertLine{
+    border-left: 6px solid #A3C0FF;
+    box-shadow: 0px 1px 3px grey;
+    height: 120px;
+}
+.vertLineBody{
+    border-left: 6px solid #AE87FD;
+    box-shadow: 0px 1px 3px grey;
+    margin-top: 20px;
+    margin-left: 55px;
+    height: 145px;
+}
+.horLineBody{
+    border: 3px solid #A3C0FF;
+    box-shadow: 0px 1px 3px grey;
+    width: 120px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.thinVertLine{
+    background-color: #d9d9d9;
+    box-shadow: 0px 1px 3px darkgrey;
+    margin-top: -10px;
+    height: 235px;
+    width: 0.1px;
+}
+.body{
+    background-color: #BDD2FF;
+}
+/* media screen hide main page image */
+@media only screen and (max-width: 800px){
+    .mainImg{
+        display: none;
+    }
+}
+
+/* Scroll bar hidden */
+.main::-webkit-scrollbar {
+    display: none;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+/* Footer formatting */

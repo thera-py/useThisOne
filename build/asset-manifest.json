@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c76ef127.css",
+    "main.js": "/static/js/main.9d183df7.js",
+    "static/js/787.c9b13b0e.chunk.js": "/static/js/787.c9b13b0e.chunk.js",
+    "static/media/tanvi.PNG": "/static/media/tanvi.13baf243f4415f648c25.PNG",
+    "static/media/mj.PNG": "/static/media/mj.68d02950545ffe729b07.PNG",
+    "static/media/mainImg.jpg": "/static/media/mainImg.4f2a589354194e3627d1.jpg",
+    "index.html": "/index.html",
+    "main.c76ef127.css.map": "/static/css/main.c76ef127.css.map",
+    "main.9d183df7.js.map": "/static/js/main.9d183df7.js.map",
+    "787.c9b13b0e.chunk.js.map": "/static/js/787.c9b13b0e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c76ef127.css",
+    "static/js/main.9d183df7.js"
+  ]
+}

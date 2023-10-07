@@ -1,0 +1,11 @@
+.dashboard{
+    margin-left: 1.5vw;
+    width: 100vw;
+    height: auto;
+}
+.tableID{
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
